@@ -44,13 +44,6 @@ public class Move : MonoBehaviour
         _inputActions.Disable();
     }
 
-    void Start()
-    {
-        if (_isRunning)
-        {
-        }
-    }
-
     void Update()
     {
         _isGrounded = _characterController.isGrounded;
